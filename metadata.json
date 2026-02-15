@@ -1,0 +1,5 @@
+{
+  "name": "Dot Animator 200",
+  "description": "A retro-style animation editor for creating 4-frame sequences on an 200x200 canvas with 4px pixel-perfect dots, exporting to FITS.",
+  "requestFramePermissions": []
+}

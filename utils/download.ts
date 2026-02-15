@@ -92,7 +92,7 @@ export const downloadFrames = async (frames: string[]) => {
     
     const link = document.createElement('a');
     link.href = url;
-    link.download = `frame_${i + 1}.fits`;
+    link.download = `ROOT_${i + 1}_L.fits`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

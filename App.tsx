@@ -70,9 +70,9 @@ const App: React.FC = () => {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              Dot Animator 200
+              Dot Animator 120
             </h1>
-            <p className="text-xs text-neutral-500 mt-1">200x200px • 4 Frames • 4px Dots</p>
+            <p className="text-xs text-neutral-500 mt-1">120x120px • 4 Frames • 2px Dots</p>
           </div>
           <button
             onClick={handleDownload}
@@ -134,7 +134,7 @@ const App: React.FC = () => {
           </div>
           
           <div className="text-neutral-500 text-sm mt-12 text-center max-w-md">
-            <p>Tip: Draw on the black square. Dots are automatically sized to 4px radius.</p>
+            <p>Tip: Draw on the black square. Dots are automatically sized to 2px radius.</p>
           </div>
         </div>
 

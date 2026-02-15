@@ -5,7 +5,7 @@ export interface Size {
   height: number;
 }
 
-export const CANVAS_SIZE: Size = { width: 200, height: 200 };
-export const DOT_RADIUS = 4;
+export const CANVAS_SIZE: Size = { width: 120, height: 120 };
+export const DOT_RADIUS = 2;
 export const TOTAL_FRAMES = 4;
-export const SCALE_FACTOR = 2; // Display scale (200 * 2 = 400px)
+export const SCALE_FACTOR = 3; // Display scale (120 * 3 = 360px)
